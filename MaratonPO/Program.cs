@@ -46,10 +46,21 @@ namespace MaratonPO
             // A FunkcjaWirtualna()
             // D FunkcjaWirtualna2()
 
-            C temp = new F();
-            temp.FunkcjaWirtualna();
+            //C temp = new F();
+            //temp.FunkcjaWirtualna();
+            //temp.FunkcjaZwykla();
             // D FunkcjaWirtualna()
+            // B FunkcjaZwykla()
 
+            //D temp = new F();
+            //temp.FunkcjaWirtualna();
+            //temp.FunkcjaZwykla();
+            // D FunkcjaWirtualna()
+            // D FunkcjaZwykla()
+            Osoba o1 = new Osoba("Jan", "Kowalski");
+            o1.WypiszInfo();
+            Student o2 = new Student(2, 1, 123412);
+            o2.WypiszInfo();
         }
     }
 }
