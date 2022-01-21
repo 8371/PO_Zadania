@@ -16,7 +16,7 @@ namespace MaratonPO
         // także jest wirtualna.
         public virtual void Pracuj()
         {
-            Console.WriteLine("logowanie");
+            Console.WriteLine("pracownik pracuje");
         }
     }
     class Programista: pracownik
