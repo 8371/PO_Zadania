@@ -17,6 +17,16 @@ namespace MaratonPO
             // p.Pracuj();
             pracownik p2 = new Programista();
             p2.Pracuj();
+            // 12. W programie stwórz listę pracowników.
+            // Następnie dodaj do niej pracownika każdego typu.
+            pracownik[] lista_pracownikow = {new pracownik(),
+                new Programista(),
+                new Projektant(),
+                new Księgowy()};
+
+            //13. Za pomocą pętli foreach wywołaj wszystkich z listy i wywołaj na nich metodę Pracuj
+            foreach (pracownik p11 in lista_pracownikow)
+                p11.Pracuj();
 
             // Zadania 7 - XYZ
             double a = 2.1, b = 3.4;

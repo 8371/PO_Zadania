@@ -35,4 +35,25 @@ namespace MaratonPO
             Console.WriteLine("Obowiazki programisty");
         }
     }
+    class Projektant: pracownik
+    /*
+    11. Następnie dodaj 3 klasy pracowników dziedziczących po klasie 
+    Pracownik: Programista, Projektant i Księgowy. W każdej z tych klas 
+    nadpisz (override) metodę pracuj wyświetlając informację o tym kto pracuje.
+     */
+    {
+        public override void Pracuj()
+        {
+            base.Pracuj();
+            Console.WriteLine("Projektant projektuje");
+        }
+    }
+    class Księgowy: pracownik
+    {
+        public override void Pracuj()
+        {
+            base.Pracuj();
+            Console.WriteLine("Księgowy pracuje");
+        }
+    }
 }
